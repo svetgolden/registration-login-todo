@@ -21,7 +21,7 @@ render(){
 	return (
 		<div className = {css(styles.todoContainer)}>
 		<Link to="/" onClick={fetchLogout()}>EXIT</Link>
-		<span> Hello, {this.props.login} </span>
+		<h3> Hello, {this.props.login} </h3>
 		<h1>To Do List</h1>	  
         <CreateTodo/>
         <TodoList/>
